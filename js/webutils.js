@@ -2,6 +2,7 @@
  * 网站工具类js，包含easyui的扩展和常用方法
  */
 var yp = $.extend({}, yp);// 定义全局对象
+var myProjectName="/hbsi"//项目根路径名称
 
 /**
  * 获得项目的根路径 使用方法：yp.bp(); 返回项目的根路径，形如："http://localhost:8080/project"
@@ -15,7 +16,7 @@ yp.bp = function() {
 	var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);// 截取pathName的第一节内容：/hbsi/page/welcome.jsp中的'/hbsi'
 	// return (hostPath + projectName);
 	// return hostPath;
-	if (projectName == '/hbsi') {
+	if (projectName == myProjectName) {
 		return (hostPath + projectName);
 	} else {
 		return hostPath;
@@ -29,7 +30,7 @@ yp.getBasePath = function() {
 	var path = document.location.pathname;
 	var index = path.indexOf("/", 1);
 	var basepath = path.substring(0, index);// "/project"
-	if (basepath == '/hbsi') {
+	if (basepath == myProjectName) {
 		return basepath;
 	} else {
 		return '/';
