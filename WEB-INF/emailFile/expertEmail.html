@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<!-- 向专家发送的邮件模板 -->
+<html>
+<head>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<title>通知邮件</title>
+<style type="text/css">
+table {
+	font-size: 12px;
+	margin-left: 30px;
+	margin-top: 20px;
+	background-color: #efefef;
+	border-collapse: collapse;
+}
+
+table tr td:nth-child(even) {
+	text-align: left;
+	width: 200px;
+	text-overflow: clip;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+table tr td {
+	border-bottom: 1px solid #bbb;
+	padding: 3px 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.leftpadding {
+	padding-left: 20px;
+}
+</style>
+</head>
+<body>
+	<div style="margin-left: 20px;float: left;">
+		<b>——通知</b>
+	</div>
+	<div style="margin-left: 500px;float: left;">
+		<img width="268px" height="39px" alt="湖北省标准化研究院" src="">
+	</div>
+	<div style="width: 960px;padding: 10px 10px;clear: both;">
+		<p>尊敬的{0}，您好！</p>
+		<blockquote style="font-size: 14px;">
+			我们此处有来自用户的关于{1}产品的三包责任争议调解申请，需要您的协助与支持。 目前，此申请处于<label style="color: red;">{2}</label>状态。 在业务处理过程中，我们会再与您联系！
+		</blockquote>
+		<b style="font-size: 12px;">以下是此申请的部分基本信息及用户信息，仅供参考：</b>
+		<table>
+			<tr>
+				<td class="bold">案件编号：</td>
+				<td>{3}</td>
+				<td class="bold leftpadding">申请方：</td>
+				<td>{4}</td>
+				<td class="bold leftpadding">申请日期：</td>
+				<td>{5}</td>
+			</tr>
+			<tr>
+				<td class="bold">申请事项：</td>
+				<td colspan="5">{6}</td>
+			</tr>
+			<tr>
+				<td class="bold">汽车品牌型号：</td>
+				<td>{1}</td>
+				<td class="bold leftpadding">车架号：</td>
+				<td>{7}</td>
+				<td class="bold leftpadding">购车日期：</td>
+				<td>{8}</td>
+			</tr>
+			<tr style="height: 80px;">
+				<td style="vertical-align: top;border-bottom: none" class="bold">争议问题描述：</td>
+				<td colspan="5" style="vertical-align: top;overflow: auto;border-bottom: none">{9}</td>
+			</tr>
+		</table>
+		<div style="margin-top: 20px;margin-right:130px; font-size: 14px; float: right;">
+			<p>
+				此外您也可以通登录到“<a href="{10}">湖北省家用汽车三包责任争议调解平台</a>”查看更多关于此案例的信息!
+			</p>
+			<p>为方便起见，您也可以通过单击以下链接以临时身份进入系统——</p>
+			<a href="{11}">点此链接以临时身份进入系统管理当前业务</a>
+		</div>
+		<div style="float: right;padding-right: 20px;font-size: 14px;clear: right;margin-right:130px;">咨询电话：{12}</div>
+	</div>
+	<br>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<!-- 拒绝申请的邮件模板 -->
+<html>
+  <head>
+        <meta name="content-type" content="text/html; charset=UTF-8">
+    <title>通知邮件</title>
+    <style type="text/css">
+    	table{
+    		font-size: 12px;margin-left: 30px;margin-top: 20px;background-color: #efefef;border-collapse:collapse;
+    	}
+    	table tr td:nth-child(even){
+		text-align:left;
+		width: 200px;
+		text-overflow : clip;white-space:nowrap;overflow:hidden;
+	}
+	table tr td{
+		border-bottom: 1px solid #bbb;padding:3px 0;
+	}
+    </style>
+  </head>
+  <body>
+   <div style="margin-left: 20px;float: left;"><b>——通知</b></div>
+   <div style="margin-left: 500px;float: left;"><img width="268px" height="39px" alt="湖北省标准化研究院" src=""></div>
+   <div style="width: 960px;padding: 10px 10px;clear: both;">
+   <p>尊敬的用户，您好！</p>
+   <blockquote style="font-size: 14px;"> 您于{0}提交的三包责任争议调解申请，我们已经收到，但鉴于以下原因未能通过审核，如有疑问欢迎通过下方的电话前来咨询！</blockquote>
+   <p>{1}</p>
+   <div style="float: right;padding-right: 20px;font-size: 14px;clear: right;margin-right:130px;">咨询电话：{2}</div>
+   </div>
+   <br>
+  </body>
+</html>

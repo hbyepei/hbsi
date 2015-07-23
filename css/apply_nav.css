@@ -1,0 +1,57 @@
+@CHARSET "utf-8";
+* {font-family: 微软雅黑, sans-serif, Microsoft YaHei, 宋体;font-size: 14px;color: #444;}
+.footer {text-align: center;	font-size: 12px;}
+.header {background-image: url("images/bg.gif");background-repeat: repeat-x;}
+.png{position: relative;top: 70px;left:10%;}
+.td_side{white-space: nowrap;text-overflow:clip; overflow:hidden;}
+.td_center{width: 487px;height: auto;}
+.nav-button{padding: 8px 15px;text-decoration: none;color:white;font-weight:bolder; vertical-align: middle;background:#3BAAE3;}
+.nav-button:hover {border-bottom: 2px solid #BABDA5; border-right:  2px solid #A7AA95;background:#A9DAF3;color:#444;}
+#navimg {
+	padding-bottom: 10px;
+	width: 487px;
+	height: 105px;
+	margin: 0 auto;
+	background: url('../images/nav2.png') no-repeat;
+	text-align: center;
+}
+
+#navimg a {
+	display: block;
+	width: 77px;
+	height: 105px;
+	float: left;
+	text-indent: -9999px;
+}
+
+#navimg .split {
+	display: block;
+	width: 62px;
+	height: 105px;
+	float: left;
+}
+
+#navimg .split2 {
+	width: 58px;
+}
+
+#navimg .active {
+	background: url('../images/nav.png') no-repeat;
+}
+
+#navimg #step1 {
+	background-position: 0 0;
+}
+
+#navimg #step2 {
+	background-position: -139px 1px;
+}
+
+#navimg #step3 {
+	width: 78px;
+	background-position: -274px 1px;
+}
+
+#navimg #step4 {
+	background-position: -410px 1px;
+}

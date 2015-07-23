@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<!-- 向责任方发送的邮件模板 -->
+<html>
+<head>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<title>通知邮件</title>
+<style type="text/css">
+table {
+	font-size: 12px;
+	margin-left: 30px;
+	margin-top: 20px;
+	background-color: #efefef;
+	border-collapse: collapse;
+}
+
+table tr td:nth-child(even) {
+	text-align: left;
+	width: 200px;
+	text-overflow: clip;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+table tr td {
+	border-bottom: 1px solid #bbb;
+	padding: 3px 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.leftpadding {
+	padding-left: 20px;
+}
+</style>
+</head>
+<body>
+	<div style="margin-left: 20px;float: left;">
+		<b>——通知</b>
+	</div>
+	<div style="margin-left: 500px;float: left;">
+		<img width="268px" height="39px" alt="湖北省标准化研究院" src="">
+	</div>
+	<div style="width: 960px;padding: 10px 10px;clear: both;">
+		<p>尊敬的用户，您好！</p>
+		<blockquote style="font-size: 14px;">
+			关于此前的三包责任争议调解申请案({0}牌汽车，型号：{1})，目前处于<label style="color: red;">{2}</label>状态。由于贵方是此次案件的责任方，我们会根据需要联系贵方，届时请予以配合！
+		</blockquote>
+		<b style="font-size: 12px;">以下是此申请的部分基本信息及用户信息，仅供参考：</b>
+		<table>
+			<tr>
+				<td class="bold">案件编号：</td>
+				<td>{3}</td>
+				<td class="bold leftpadding">申请方：</td>
+				<td>{4}</td>
+				<td class="bold leftpadding">申请日期：</td>
+				<td>{5}</td>
+			</tr>
+			<tr>
+				<td class="bold">申请事项：</td>
+				<td colspan="5">{6}</td>
+			</tr>
+			<tr>
+				<td class="bold">汽车型号：</td>
+				<td>{1}</td>
+				<td class="bold leftpadding">车架号：</td>
+				<td>{7}</td>
+				<td class="bold leftpadding">购车日期：</td>
+				<td>{8}</td>
+			</tr>
+			<tr style="height: 80px;">
+				<td class="bold" style="vertical-align: top;border-bottom: none">问题描述：</td>
+				<td colspan="5" style="vertical-align: top;overflow: auto;border-bottom: none">{9}</td>
+			</tr>
+		</table>
+		<div style="margin-top: 20px;margin-right:130px; font-size: 14px; float: right;">
+			<p>
+				如果您受到了关于三包责任争议问题的困扰，也可以到“<a href="{10}">湖北省家用汽车三包责任争议调解平台</a>”上提交调解申请!
+			</p>
+		</div>
+		<div style="text-align:right;padding-right: 20px;font-size: 12px; color:#888;">请勿回复此邮件！</div>
+		<div style="float: right;padding-right: 20px;font-size: 14px;clear: right;margin-right:130px;">咨询电话：{11}</div>
+	</div>
+	<br>
+</body>
+</html>

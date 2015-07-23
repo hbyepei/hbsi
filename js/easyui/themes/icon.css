@@ -1,0 +1,260 @@
+.icon-blank{
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('icons/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('icons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-forward{
+	background:url('icons/forward.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+/*========================自定义图标=========================*/
+.icon-yp_menu{
+	background:url('icons/yp_menu.png') no-repeat center center;
+}
+.icon-yp_user{
+	background:url('icons/yp_user.png') no-repeat center center;
+}
+.icon-yp_doc{
+	background:url('icons/yp_doc.png') no-repeat center center;
+}
+.icon-yp_task{
+	background:url('icons/yp_task.png') no-repeat center center;
+}
+.icon-yp_sys{
+	background:url('icons/yp_sys.png') no-repeat center center;
+}
+.icon-yp_skin{
+	background:url('icons/yp_skin.png') no-repeat center center;
+}
+.icon-yp_skin_blue{
+	background:url('icons/yp_skin_blue.png') no-repeat center center;
+}
+.icon-yp_skin_dark-black{
+	background:url('icons/yp_skin_dark-black.png') no-repeat center center;
+}
+.icon-yp_skin_gray{
+	background:url('icons/yp_skin_gray.png') no-repeat center center;
+}
+.icon-yp_skin_green{
+	background:url('icons/yp_skin_green.png') no-repeat center center;
+}
+.icon-yp_skin_orange{
+	background:url('icons/yp_skin_orange.png') no-repeat center center;
+}
+.icon-yp_skin_red{
+	background:url('icons/yp_skin_red.png') no-repeat center center;
+}
+.icon-yp_out{
+	background:url('icons/yp_out.png') no-repeat center center;
+}
+.icon-yp_person{
+	background:url('icons/yp_person.png') no-repeat center center;
+}
+.icon-yp_edit{
+	background:url('icons/yp_edit.png') no-repeat center center;
+}
+.icon-yp_logout{
+	background:url('icons/yp_logout.png') no-repeat center center;
+}
+.icon-yp_lock{
+	background:url('icons/yp_lock.png') no-repeat center center;
+}
+.icon-yp_home{
+	background:url('icons/yp_home.png') no-repeat center center;
+}
+.icon-yp_document{
+	background:url('icons/yp_document.png') no-repeat center center;
+}
+.icon-yp_historydoc{
+	background:url('icons/yp_historydoc.png') no-repeat center center;
+}
+.icon-yp_excelimport{
+	background:url('icons/yp_excelimport.png') no-repeat center center;
+}
+.icon-yp_excelexport{
+	background:url('icons/yp_excelexport.png') no-repeat center center;
+}
+.icon-yp_word{
+	background:url('icons/yp_word.png') no-repeat center center;
+}
+.icon-yp_detailsearch{
+	background:url('icons/yp_detailsearch.png') no-repeat center center;
+}
+.icon-yp_alltask{
+	background:url('icons/yp_alltask.png') no-repeat center center;
+}
+.icon-yp_excel{
+	background:url('icons/yp_excel.png') no-repeat center center;
+}
+.icon-yp_sysuser{
+	background:url('icons/yp_sysuser.png') no-repeat center center;
+}
+.icon-yp_expert{
+	background:url('icons/yp_expert.png') no-repeat center center;
+}
+.icon-yp_log{
+	background:url('icons/yp_log.png') no-repeat center center;
+}
+.icon-yp_docbook{
+	background:url('icons/yp_docbook.png') no-repeat center center;
+}
+.icon-yp_db{
+	background:url('icons/yp_db.png') no-repeat center center;
+}
+.icon-yp_docsearch{
+	background:url('icons/yp_docsearch.png') no-repeat center center;
+}
+.icon-yp_expert{
+	background:url('icons/yp_expert.png') no-repeat center center;
+}
+.icon-yp_email{
+	background:url('icons/yp_email.png') no-repeat center center;
+}
+.icon-yp_writing{
+	background:url('icons/yp_writing.png') no-repeat center center;
+}
+.icon-yp_waiting{
+	background:url('icons/yp_waiting.png') no-repeat center center;
+}
+.icon-yp_msg{
+	background:url('icons/yp_msg.png') no-repeat center center;
+}
+.icon-yp_clean{
+	background:url('icons/yp_clean.png') no-repeat center center;
+}
+.icon-yp_ok2{
+	background:url('icons/yp_ok2.png') no-repeat center center;
+}
+.icon-yp_forward{
+	background:url('icons/yp_forward.png') no-repeat center center;
+}
+.icon-yp_stop{
+	background:url('icons/yp_stop.png') no-repeat center center;
+}
+.icon-yp_save{
+	background:url('icons/yp_save.png') no-repeat center center;
+}
+.icon-yp_delete{
+	background:url('icons/yp_delete.png') no-repeat center center;
+}
+.icon-yp_left{
+	background:url('icons/yp_left.png') no-repeat center center;
+}
+.icon-yp_editrole{
+	background:url('icons/yp_editrole.png') no-repeat center center;
+}
+.icon-yp_addrole{
+	background:url('icons/yp_addrole.png') no-repeat center center;
+}
+.icon-yp_deleterole{
+	background:url('icons/yp_deleterole.png') no-repeat center center;
+}
+.icon-yp_searchclean{
+	background:url('icons/yp_searchclean.png') no-repeat center center;
+}
+.icon-yp_key{
+	background:url('icons/yp_key.png') no-repeat center center;
+}
+.icon-yp_keydelete{
+	background:url('icons/yp_keydelete.png') no-repeat center center;
+}
+.icon-yp_keyedit{
+	background:url('icons/yp_keyedit.png') no-repeat center center;
+}
+.icon-yp_keyadd{
+	background:url('icons/yp_keyadd.png') no-repeat center center;
+}
+.icon-yp_all2left{
+	background:url('icons/yp_all2left.png') no-repeat center center;
+}
+.icon-yp_all2right{
+	background:url('icons/yp_all2right.png') no-repeat center center;
+}
+.icon-yp_toright{
+	background:url('icons/yp_toright.png') no-repeat center center;
+}
+.icon-yp_toleft{
+	background:url('icons/yp_toleft.png') no-repeat center center;
+}
+.icon-yp_sort{
+	background:url('icons/yp_sort.png') no-repeat center center;
+}
+.icon-yp_gender{
+	background:url('icons/yp_gender.png') no-repeat center center;
+}
+.icon-yp_nickName{
+	background:url('icons/yp_nickName.png') no-repeat center center;
+}
+.icon-yp_phone{
+	background:url('icons/yp_phone.png') no-repeat center center;
+}
+.icon-yp_clock{
+	background:url('icons/yp_clock.png') no-repeat center center;
+}
+.icon-yp_file{
+	background:url('icons/yp_file.png') no-repeat center center;
+}
+.icon-yp_map{
+	background:url('icons/yp_map.png') no-repeat center center;
+}
+.icon-yp_chart{
+	background:url('icons/yp_chart.png') no-repeat center center;
+}
+/*==================================================================*/

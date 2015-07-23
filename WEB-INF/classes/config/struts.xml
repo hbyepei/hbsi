@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<constant name="devMode" value="false" />
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<constant name="struts.serve.static.browserCache" value="false" />
+	<constant name="struts.custom.i18n.resources" value="messageResource" />
+	<constant name="struts.multipart.maxSize" value="100000000" />
+	<constant name="struts.multipart.saveDir" value="C:\\temp"></constant>
+	<package name="common" namespace="/" extends="struts-default, json-default">
+		<interceptors>
+			<!--session拦截器，被此拦截器拦下的所有action访问都需要Session环境 -->
+			<interceptor name="sessionInterceptor"
+				class="whu.b606.web.interceptor.SessionInterceptor">
+				<!--safe_ 开头的方法不拦截 -->
+				<param name="excludeMethods">safe_*</param>
+			</interceptor>
+			<!--权限拦截器，被此拦截器拦下的所有Action访问都需要有相应的权限 -->
+			<interceptor name="permissionInterceptor"
+				class="whu.b606.web.interceptor.PermissionInterceptor">
+				<!--safe_ 开头的方法不拦截 -->
+				<param name="excludeMethods">safe_*</param>
+			</interceptor>
+			<!--自定义拦截器栈 -->
+			<interceptor-stack name="securityStack">
+				<interceptor-ref name="sessionInterceptor" />
+				<interceptor-ref name="permissionInterceptor" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+		<!--指定全局的默认拦截器栈 -->
+		<default-interceptor-ref name="securityStack" />
+		<global-results>
+			<result name="error">/page/error/error.jsp</result>
+			<result name="login">/page/login.jsp</result>
+			<!-- 没有session -->
+			<!-- <result name="noSession">/page/index.jsp</result> -->
+			<result name="noSession">/page/error/offline.jsp</result>
+			<!-- 没有权限 -->
+			<result name="noSecurity">/page/error/offline.jsp</result>
+			<!-- struts抛异常 -->
+			<result name="strutsException">/page/error/error.jsp</result>
+		</global-results>
+		<global-exception-mappings>
+			<exception-mapping result="strutsException"
+				exception="java.lang.Exception" />
+		</global-exception-mappings>
+	</package>
+</struts>    

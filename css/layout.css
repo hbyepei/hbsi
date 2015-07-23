@@ -1,0 +1,41 @@
+body,html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+/* 	margin-top: 0; */
+/* 	margin-left: auto; */
+/* 	margin-right: auto; */
+/* 		margin-bottom:-50px; */
+	margin: 0 auto -20px; /*margin-bottom的负值等于footer高度*/
+}
+.footer {
+	height: 20px;/*页脚高度*/
+	clear: both;
+}
+.header {
+	height: 140px;/*头部高度*/
+}
+/*以下出现的所有百分比之和应当为100%*/
+.content {
+	width: 66%;/*中间区宽度*/
+	float: left;
+	margin-right: 1%;/*间隙宽度*/
+}
+
+.right {
+	width: 16%;/*右区宽度*/
+	float: left;
+}
+
+.left {
+	width: 16%;/*左区宽度*/
+	float: left;
+	margin-right: 1%;/*左间隙宽度度*/
+}
+
